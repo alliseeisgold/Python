@@ -20,10 +20,10 @@ def quick_sort(start, end, array):
 # Алгоритм бинарного поиска
 
 def binary_search(left, right, array, X):
-	if (array != array.sorted()):
+	if (array != sorted(array)):
 		quick_sort(0, len(list) - 1, list)
-	while (left < right):
-		middle = (left + right) / 2
+	while (left < right - 1):
+		middle = (left + right) // 2
 		if (array[middle] < X):
 			left = middle
 		elif (array[middle] > X):
