@@ -1,1 +1,1 @@
-Quick Sort Algorithm's implementation
+Some Algorithm's implementation
