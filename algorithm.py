@@ -15,4 +15,4 @@ def quick_sort(start, end, array):
 		p = partition(start, end, array)
 		quick_sort(start, p - 1, array)
 		quick_sort(p + 1, end, array)
-array = [ 10, 7, 8, 9, 1, 5 ]
+
